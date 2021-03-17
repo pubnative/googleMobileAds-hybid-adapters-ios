@@ -1,0 +1,1 @@
+# googleMobileAds-hybid-adapters-ios
