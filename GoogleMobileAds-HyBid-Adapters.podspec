@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "GoogleMobileAds-HyBid-Adapters"
   spec.version      = "0.1.0"
-  spec.summary      = "Test iOS adapter for Google Mobile Ads"
+  spec.summary      = "HyBid iOS SDK Adapters (Header Bidding & Mediation) for Google Mobile Ads"
   spec.description = <<-DESC
                      Supported ad formats:
                      Banner, MRect, Leaderboard, Interstitial, Rewarded, Native
