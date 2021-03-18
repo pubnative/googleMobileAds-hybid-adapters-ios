@@ -5,8 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "Test iOS adapter for Google Mobile Ads"
   spec.description = <<-DESC
                      Supported ad formats:
-                     GAM: Banner, MRect, Leaderboard, Interstitial
-                     GAD: Banner, MRect, Leaderboard, Interstitial, Rewarded, Native
+                     Banner, MRect, Leaderboard, Interstitial, Rewarded, Native
                    DESC
   spec.homepage     = "https://github.com/pubnative/pubnative-hybid-ios-sdk"
   spec.license      = { :type => "MIT", :text => <<-LICENSE
