@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GoogleMobileAds-HyBid-Adapters"
-  spec.version      = "2.13.0.1"
+  spec.version      = "2.13.1.0"
   spec.summary      = "HyBid iOS SDK Adapters (Header Bidding & Mediation) for Google Mobile Ads"
   spec.description = <<-DESC
                      Supported ad formats:
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :text => <<-LICENSE
     MIT License
 
-    Copyright (c) 2021 PubNative GmbH
+    Copyright (c) 2022 PubNative GmbH
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -35,11 +35,11 @@ Pod::Spec.new do |spec|
 
   spec.authors      = { "Can Soykarafakili" => "can.soykarafakili@pubnative.net", "Eros Garcia Ponte" => "eros.ponte@pubnative.net", "Fares Benhamouda" => "fares.benhamouda@pubnative.net", "Orkhan Alizada" => "orkhan.alizada@pubnative.net"  }
   spec.platform     = :ios, '10.0'
-  spec.source       = { :git => "https://github.com/pubnative/googleMobileAds-hybid-adapters-ios.git", :tag => "2.13.0.1" }
+  spec.source       = { :git => "https://github.com/pubnative/googleMobileAds-hybid-adapters-ios.git", :tag => "2.13.1.0" }
 
   spec.source_files = 'GoogleMobileAdsAdapters/**/*.{swift,h,m}'
   spec.static_framework = true
 
-  spec.dependency 'HyBid', '2.13.0'
+  spec.dependency 'HyBid', '2.13.1'
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
 end
