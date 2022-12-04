@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GoogleMobileAds-HyBid-Adapters"
-  spec.version      = "2.16.1.0"
+  spec.version      = "2.16.2-beta6.0"
   spec.summary      = "HyBid iOS SDK Adapters (Header Bidding & Mediation) for Google Mobile Ads"
   spec.description = <<-DESC
                      Supported ad formats:
@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
 
   spec.authors      = { "Can Soykarafakili" => "can.soykarafakili@pubnative.net", "Eros Garcia Ponte" => "eros.ponte@pubnative.net", "Fares Benhamouda" => "fares.benhamouda@pubnative.net", "Orkhan Alizada" => "orkhan.alizada@pubnative.net"  }
   spec.platform     = :ios, '10.0'
-  spec.source       = { :git => "https://github.com/pubnative/googleMobileAds-hybid-adapters-ios.git", :tag => "2.16.1.0" }
+  spec.source       = { :git => "https://github.com/pubnative/googleMobileAds-hybid-adapters-ios.git", :tag => "2.16.2-beta6.0" }
 
   spec.source_files = 'GoogleMobileAdsAdapters/**/*.{swift,h,m}'
   spec.static_framework = true
