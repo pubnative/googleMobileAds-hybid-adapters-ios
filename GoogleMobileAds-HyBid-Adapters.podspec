@@ -40,6 +40,6 @@ Pod::Spec.new do |spec|
   spec.source_files = 'GoogleMobileAdsAdapters/**/*.{swift,h,m}'
   spec.static_framework = true
 
-  spec.dependency 'HyBid', '2.17.1-beta.0'
+  spec.dependency 'HyBid', '2.17.1-beta'
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
 end
