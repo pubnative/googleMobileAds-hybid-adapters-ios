@@ -41,5 +41,5 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
 
   spec.dependency 'HyBid', '2.18.1'
-  spec.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
+  spec.dependency 'Google-Mobile-Ads-SDK', '~> 10.0'
 end
