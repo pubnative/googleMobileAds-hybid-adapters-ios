@@ -46,7 +46,15 @@ NSString *const HyBidGADAdapterKeyAppToken = @"pn_app_token";
 + (NSString *)valueWithKey:(NSString *)key
                 fromExtras:(NSString *)extras {
     NSString *result = nil;
+    if (!extras || [extras length] == 0) {
+        return result;
+    }
+    
     NSData *jsonData = [extras dataUsingEncoding:NSUTF8StringEncoding];
+    if (!jsonData) {
+        return result;
+    }
+    
     NSError *error;
     NSMutableDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:jsonData
                                                                       options:0
