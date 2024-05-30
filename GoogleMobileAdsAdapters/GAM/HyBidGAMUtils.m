@@ -1,5 +1,5 @@
 //
-//  Copyright © 2020 PubNative. All rights reserved.
+//  Copyright © 2024 PubNative. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -41,7 +41,15 @@ NSString *const PNLiteGAMAdapterKeyZoneID = @"pn_zone_id";
 + (NSString *)valueWithKey:(NSString *)key
                 fromExtras:(NSString *)extras {
     NSString *result = nil;
+    if (!extras || [extras length] == 0) {
+        return result;
+    }
+    
     NSData *jsonData = [extras dataUsingEncoding:NSUTF8StringEncoding];
+    if (!jsonData) {
+        return result;
+    }
+    
     NSError *error;
     NSMutableDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:jsonData
                                                                       options:0
@@ -53,7 +61,7 @@ NSString *const PNLiteGAMAdapterKeyZoneID = @"pn_zone_id";
     return result;
 }
 
-// v: 3.0.0-beta7
+// v: 3.0.1-beta1
 + (GADVersionNumber)adSDKVersion {
     GADVersionNumber version = {0};
     version.majorVersion = 3;
