@@ -30,9 +30,6 @@ let package = Package(
                 .headerSearchPath("."),
                 .headerSearchPath("GAD"),
                 .headerSearchPath("GAM")
-            ],
-            linkerSettings: [
-                .unsafeFlags(["-ObjC"])
             ]
         )
     ]
