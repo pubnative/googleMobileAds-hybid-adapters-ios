@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git", exact: "3.8.1"),
+        .package(url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git", exact: "3.9.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "13.0.0")
     ],
     targets: [
