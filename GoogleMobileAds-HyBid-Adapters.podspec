@@ -176,7 +176,7 @@ regard to the Software is limited or excluded as follows:
     }
 
   spec.authors      = { "Eros Garcia Ponte" => "eros.ponte@pubnative.net", "Fares Benhamouda" => "fares.benhamouda@pubnative.net", "Orkhan Alizada" => "orkhan.alizada@pubnative.net", "Jose Contreras" => "jose.contreras@verve.com", "Aysel Abdullayeva" => "aysel.abdullayeva@verve.com" }
-  spec.platform     = :ios, '12.0'
+  spec.platform     = :ios, '13.0'
   spec.source       = { :git => "https://github.com/pubnative/googleMobileAds-hybid-adapters-ios.git", :tag => "3.9.2.0" }
 
   spec.source_files = 'GoogleMobileAdsAdapters/**/*.{swift,h,m}'
